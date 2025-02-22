@@ -1,0 +1,44 @@
+{
+  "name": "ReportPhishing",
+  "description": "A Thunderbird extension for reporting phishing",
+  "version": "0.1.0",
+  "default_locale": "en",
+  "author": "Luc Bennett",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b1f77ab0-9d26-4bd8-8009-7ded58017578}",
+      "strict_min_version": "115.0"
+    }
+  },
+  "permissions": [
+    "accountsRead",
+    "messagesRead",
+    "theme",
+    "compose",
+    "compose.send",
+    "tabs",
+    "activeTab"
+  ],
+  "icons": {
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png"
+  },
+  "message_display_action": {
+    "default_title": "ReportPhishing",
+    "default_icon": "icons/phishing.png",
+    "default_popup": "popup.html",
+    "theme_icons": [
+      {
+        "light": "icons/icon48.png.png",
+        "dark": "icons/icon48_inverted.png",
+        "size": 48
+      },
+      {
+        "light": "icons/icon64.png",
+        "dark": "icons/icon64_inverted.png",
+        "size": 64
+      }
+    ]
+  },
+  "manifest_version": 2
+}

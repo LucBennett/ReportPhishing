@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Report Popup</title>
+  </head>
+  <body>
+    <h3 id="emailText" data-i18n="emailText">
+      Would you like to report this email?
+      <br />
+      "John Doe" &lt;John.Doe@example.com&gt;
+    </h3>
+
+    <!-- Popup Modal -->
+    <div class="popup-overlay" id="popup">
+      <div class="popup-container">
+        <h3>Select Recipients</h3>
+
+        <ul id="email-list">
+          <li>
+            <input type="checkbox" value="reportphishing@apwg.org" />
+            reportphishing@apwg.org
+          </li>
+          <li>
+            <input type="checkbox" value="scam@netcraft.com" />
+            scam@netcraft.com
+          </li>
+        </ul>
+
+        <button id="reportButton">Send Report</button>
+      </div>
+    </div>
+    <script src="i18n.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
