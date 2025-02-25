@@ -66,6 +66,8 @@ $xpiFilePath = Join-Path -Path $buildDir -ChildPath $xpiFileName
 # List of files and directories to add, relative to ./src
 $files = @(
     "manifest.json",
+    "_locales",
+    "icons",
     "popup.html",
     "popup.js",
     "i18n.js",

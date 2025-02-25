@@ -1,0 +1,18 @@
+{
+  "popupTitle": {
+    "message": "Confirmación de Reporte de Correo Electrónico",
+    "description": "Título de la ventana emergente para la confirmación del reporte de correo electrónico."
+  },
+  "emailText": {
+    "message": "Por favor, confirme su intención de reportar el siguiente correo electrónico:",
+    "description": "Mensaje que solicita al usuario confirmar el reporte del correo electrónico."
+  },
+  "selectRecipients": {
+    "message": "Seleccionar Destinatarios",
+    "description": "Encabezado para seleccionar los destinatarios del reporte."
+  },
+  "reportButton": {
+    "message": "Enviar Reporte",
+    "description": "Etiqueta para el botón de envío del reporte."
+  }
+}

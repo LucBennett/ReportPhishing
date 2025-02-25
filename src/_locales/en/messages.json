@@ -1,1 +1,18 @@
-{}
+{
+  "popupTitle": {
+    "message": "Email Reporting Confirmation",
+    "description": "Title of the popup window for email reporting confirmation."
+  },
+  "emailText": {
+    "message": "Please confirm your intention to report the following email:",
+    "description": "Prompt asking the user to confirm email reporting."
+  },
+  "selectRecipients": {
+    "message": "Select Recipients",
+    "description": "Heading for selecting report recipients."
+  },
+  "reportButton": {
+    "message": "Submit Report",
+    "description": "Label for the report submission button."
+  }
+}

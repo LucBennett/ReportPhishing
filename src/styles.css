@@ -1,13 +1,13 @@
 /* Base Styles */
 body {
-  width: 400px;
-  margin: 1em;
-  padding-right: 1em;
-  font-family: 'Segoe UI', sans-serif;
-  font-size: 14px;
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 1em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
   text-align: center;
-  background-color: #f0f0f0;
-  color: #1a1a1a;
+  background-color: #ffffff;
+  color: #333333;
 }
 
 h1,
@@ -19,43 +19,61 @@ h6,
 summary {
   font-weight: 600;
   margin-bottom: 1em;
-  overflow-wrap: break-word;
-  color: #1a1a1a;
+  color: #333333;
 }
 
 p {
-  color: #5f6368;
+  color: #555555;
 }
 
 .button {
-  padding: 0.6em 1em;
+  padding: 0.8em 1.5em;
   margin: 1em;
   cursor: pointer;
   border: none;
   border-radius: 4px;
-  display: inline-block;
-  vertical-align: middle;
   transition:
     background-color 0.2s ease,
     box-shadow 0.2s ease;
-  background-color: #0078d7;
-  color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #005a9e;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 ul {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers the items horizontally */
+  align-items: flex-start;
   list-style: none;
   padding: 0;
+  margin: 1em 0;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+}
+
+.container {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+.small-text {
+  font-size: 0.85em;
+  color: #777777;
 }
 
 /* Dark Theme Styles */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #333;
-    color: #fff;
+    background-color: #222222;
+    color: #dddddd;
   }
 
   h1,
@@ -65,19 +83,23 @@ ul {
   h5,
   h6,
   summary {
-    color: #fff;
+    color: #dddddd;
   }
 
   p {
-    color: #fff;
+    color: #cccccc;
   }
 
   .button {
+    background-color: #0066cc;
     box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
   }
 
   .button:hover {
-    background-color: #444;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    background-color: #005bb5;
+  }
+
+  .container {
+    background: #333333;
   }
 }

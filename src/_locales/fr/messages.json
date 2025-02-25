@@ -1,0 +1,18 @@
+{
+  "popupTitle": {
+    "message": "Confirmation du Signalement d'Email",
+    "description": "Titre de la fenêtre contextuelle pour la confirmation du signalement d'un email."
+  },
+  "emailText": {
+    "message": "Veuillez confirmer votre intention de signaler l'email suivant :",
+    "description": "Message demandant à l'utilisateur de confirmer le signalement de l'email."
+  },
+  "selectRecipients": {
+    "message": "Sélectionner les Destinataires",
+    "description": "Titre pour la sélection des destinataires du signalement."
+  },
+  "reportButton": {
+    "message": "Envoyer le Signalement",
+    "description": "Texte du bouton pour soumettre le signalement."
+  }
+}

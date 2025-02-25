@@ -58,7 +58,6 @@ $files = @(
     "./src/manifest.json",
     "./src/_locales",
     "./src/icons",
-    "./src/background.js",
     "./src/popup.html",
     "./src/popup.js",
     "./src/i18n.js",

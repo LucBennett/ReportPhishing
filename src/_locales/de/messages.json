@@ -1,0 +1,18 @@
+{
+  "popupTitle": {
+    "message": "Bestätigung der E-Mail-Meldung",
+    "description": "Titel des Popups zur Bestätigung der E-Mail-Meldung."
+  },
+  "emailText": {
+    "message": "Bitte bestätigen Sie, dass Sie die folgende E-Mail melden möchten:",
+    "description": "Aufforderung an den Benutzer, die Meldung der E-Mail zu bestätigen."
+  },
+  "selectRecipients": {
+    "message": "Empfänger auswählen",
+    "description": "Überschrift für die Auswahl der Empfänger der Meldung."
+  },
+  "reportButton": {
+    "message": "Meldung senden",
+    "description": "Beschriftung für die Schaltfläche zum Absenden der Meldung."
+  }
+}

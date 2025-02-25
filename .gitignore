@@ -1,3 +1,5 @@
+*.iml
+
 # Ignore build directory
 build/
 
