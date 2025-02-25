@@ -60,6 +60,7 @@ $files = @(
     "./src/icons",
     "./src/popup.html",
     "./src/popup.js",
+    "./src/background.js",
     "./src/i18n.js",
     "./src/styles.css"
 )
