@@ -1,11 +1,10 @@
 /* Base Styles */
 body {
-  max-width: 600px;
-  margin: 2em auto;
-  padding: 1em;
+  max-width: 400px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   text-align: center;
+  margin: 1em;
   background-color: #ffffff;
   color: #333333;
 }
@@ -17,8 +16,6 @@ h4,
 h5,
 h6,
 summary {
-  font-weight: 600;
-  margin-bottom: 1em;
   color: #333333;
 }
 
@@ -26,8 +23,8 @@ p {
   color: #555555;
 }
 
-.button {
-  padding: 0.8em 1.5em;
+button {
+  padding: 0.5em;
   margin: 1em;
   cursor: pointer;
   border: none;
@@ -54,13 +51,6 @@ ul li {
 }
 
 .container {
-  max-width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  background: #ffffff;
-  padding: 2em;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-align: left;
 }
 
@@ -97,9 +87,5 @@ ul li {
 
   .button:hover {
     background-color: #005bb5;
-  }
-
-  .container {
-    background: #333333;
   }
 }

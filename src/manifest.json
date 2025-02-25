@@ -16,13 +16,15 @@
     "messagesMove",
     "theme",
     "compose",
-    "compose.send",
-    "tabs",
-    "activeTab"
+    "compose.save",
+    "compose.send"
   ],
   "icons": {
     "48": "icons/icon48.png",
     "64": "icons/icon64.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
   },
   "message_display_action": {
     "default_title": "ReportPhishing",
