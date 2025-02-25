@@ -1,12 +1,22 @@
 # ![icon](src/icons/icon48_inverted.png) ReportPhishing
 
-**ReportPhishing** is a Thunderbird MailExtension that makes it easy to report phishing emails. With a simple click, you can submit a copy of a suspicious email to multiple phishing report services, such as:
+**ReportPhishing** is a Thunderbird MailExtension that makes it easy to report phishing emails. With a simple click, you can submit a copy of a suspicious email to multiple phishing report services, including:
 
-- **[APWG](https://apwg.org/)** – `reportphishing@apwg.org`
+- **[APWG (Anti-Phishing Working Group)](https://apwg.org/)** – `reportphishing@apwg.org`
+- **[UK National Cyber Security Centre](https://www.ncsc.gov.uk/)** – `report@phishing.gov.uk`
 - **[Netcraft](https://www.netcraft.com/)** – `scam@netcraft.com`
-- **[FDA](https://www.fda.gov/)** – `webcomplaints@ora.fda.gov`
+- **[U.S. FDA (for fraudulent medical claims)](https://www.fda.gov/)** – `webcomplaints@ora.fda.gov`
+- **[PayPal (for PayPal-related phishing)](https://www.paypal.com/)** – `phishing@paypal.com`
 
-Simply click the button, select the services, and submit the report!
+Simply select the services, and click submit!
+
+---
+
+## ⚠️ Warning: Beware of Phishing Emails!
+
+Phishing emails attempt to steal your personal information by pretending to be from legitimate organizations. **Never click on links or download attachments from suspicious emails.** If you receive a phishing email, report it immediately to the appropriate authorities.
+
+---
 
 ## 🚀 Download
 
@@ -59,6 +69,8 @@ To build the extension from source, follow these steps:
 
    The compiled `.xpi` file will be located in the `build` directory.
 
+---
+
 ## 📥 Installation Instructions
 
 To install **ReportPhishing** in Thunderbird:
@@ -67,6 +79,8 @@ To install **ReportPhishing** in Thunderbird:
 2. Navigate to **Menu** (hamburger icon) → **Add-ons and Themes**.
 3. Click **Tools for Add-ons** (gear icon) → **Install Add-on From File**.
 4. Select the `ReportPhishing.xpi` file and install it.
+
+---
 
 ## 🔧 Development Workflow
 
@@ -96,6 +110,8 @@ To compile the extension:
 npm run compile
 ```
 
+---
+
 ## 🧪 Running Tests
 
 **ReportPhishing** includes automated tests to ensure proper functionality.
@@ -114,16 +130,22 @@ npm run compile
 
 Regularly running tests helps catch and fix any issues before releasing updates.
 
+---
+
 ## ❤️ Support This Project
 
 If you find **ReportPhishing** useful, consider supporting development:
 
 [![Buy me a coffee!](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/LucBenn)
 
+---
+
 ## 📜 License
 
 **ReportPhishing** is licensed under the **Mozilla Public License 2.0 (MPL-2.0)**.  
 See the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 🎨 Icon Credits
 
